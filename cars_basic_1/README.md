@@ -57,6 +57,7 @@ The autor is udacity.
 *Notes for me*
 npm install - installing all dependencies from package.json
 npm run dev - to run the local server 
+npm test - to run out unit tests 
 
 tslint.json 
 tsconfig.json -- both confert js to ts
