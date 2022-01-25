@@ -45,18 +45,23 @@ This is a javascript object containing a list of cars. This will be useful for p
 This directory contains some simple unit functions (`units.ts`) and corresponding tests using Mocha and Chai (`units.tests.ts`).
 
 ***
-# Tasks
-1. @TODO `./src/server.ts/`
-Add an endpoint to GET a list of cars.
+This is Basic Web Backend APP with Node.js Express on Type Script.
 
-2. @TODO `./src/server.ts/` 
-Add an endpoint to get a specific car.
+This is exercise 1 from the path of Udacity course for Cloud Developer.
+Course 2: Full stack Apps on AWS.
 
-3. @TODO `./src/server.ts/` 
-Add an endpoint to post a new car to our list.
+This App is a introduction in Node.js Express with Type Script.
+The original code is from: https://github.com/udacity/cloud-developer/tree/master/course-02/exercises/udacity-c2-basic-server
+The autor is udacity.
 
-4. @TODO `./src/unit-test-examples/units.ts`
-Try creating a method "concat" to concatenate two strings.
+*Notes for me*
+npm install - installing all dependencies from package.json
+npm run dev - to run the local server 
 
-5. @TODO `./src/unit-test-examples/units.tests.ts`
-Try creating a new describe block for the "concat" method.
+tslint.json 
+tsconfig.json -- both confert js to ts
+
+scr - main Type Script code
+udacity-c2-basic-server.postman_collection.json - in postman templates for each action with pre-defined params.
+
+
