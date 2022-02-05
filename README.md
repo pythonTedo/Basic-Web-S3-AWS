@@ -1,13 +1,6 @@
-# Udagram REST API
+# udacity-c2-basic-server
 
-Udagram is a simple cloud application developed alongside the Udacity Cloud Engineering Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
-
-The project is split into three parts:
-1. [The Simple Frontend](https://github.com/udacity/cloud-developer/tree/master/course-02/exercises/udacity-c2-frontend)
-A basic Ionic client web application which consumes the RestAPI Backend. 
-2. [The RestAPI Backend](https://github.com/udacity/cloud-developer/tree/master/course-02/exercises/udacity-c2-restapi), a Node-Express server which can be deployed to a cloud service.
-3. [The Image Filtering Microservice](https://github.com/udacity/cloud-developer/tree/master/course-02/project/image-filter-starter-code), the final project for the course. It is a Node-Express application which runs a simple script to process images.
-
+This is a simple node-express server to explore and understand the Request-Response pattern.
 
 ***
 ## Getting Setup
@@ -36,4 +29,40 @@ npm run dev
 ```
 
 Developer mode runs off the TypeScript source. Any saves will reset the server and run the latest version of the codebase. 
+
+***
+## Important Files and Project Structure
+
+The source code for this demo resides in the ./src directory.
+
+### src/server.ts
+The main code for this demo is located in the ./src/server.ts file. This includes 
+
+### src/cars.ts
+This is a javascript object containing a list of cars. This will be useful for providing data for our simple endpoints.
+
+### src/unit-test-examples/
+This directory contains some simple unit functions (`units.ts`) and corresponding tests using Mocha and Chai (`units.tests.ts`).
+
+***
+This is Basic Web Backend APP with Node.js Express on Type Script.
+
+This is exercise 1 from the path of Udacity course for Cloud Developer.
+Course 2: Full stack Apps on AWS.
+
+This App is a introduction in Node.js Express with Type Script.
+The original code is from: https://github.com/udacity/cloud-developer/tree/master/course-02/exercises/udacity-c2-basic-server
+The autor is udacity.
+
+### *Notes for me*
+npm install - installing all dependencies from package.json
+npm run dev - to run the local server 
+npm test - to run out unit tests 
+
+tslint.json 
+tsconfig.json -- both confert js to ts
+
+scr - main Type Script code
+udacity-c2-basic-server.postman_collection.json - in postman templates for each action with pre-defined params.
+
 
